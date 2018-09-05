@@ -21,7 +21,6 @@ h2{
 .custom-container {
   width: 425px;
   max-width: 425px;
-/*width: 100%;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -607,9 +606,12 @@ a.no-decoration {
   background-position: center;
   background-size:cover;
   display: table;
-  margin-left: calc(49% - 49vw);
   width: 100vw;
-
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
  
 
