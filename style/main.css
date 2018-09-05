@@ -56,7 +56,6 @@ p {
   padding-left: 0px;
 }
 
-
 .secondary-headline {
   margin-right: auto;
   margin-left: auto;
@@ -68,13 +67,12 @@ p {
   color: #5E5E5E;
 }
 
-
 .primary-text h1{
   font-size: 34px;
 }
 
 .headline-text-padding{
-  width: 425px; 
+  width: 424px; 
   padding: 25px 20px 25px 20px;
   margin: auto;
 }
@@ -104,7 +102,6 @@ p {
 .secondary-text {
   color: #DCDADA;
 }
-
 
 .yellow-underline {
   padding-left:8px; 
@@ -422,13 +419,6 @@ a.no-decoration {
   background-size: contain;
   display: inline-block;
 }
-/*a.clear-btn-style:hover .blueArrow{
-  content: url('../assets/universal/arrow-blue.png');
-  width:18px;
-  height: 15px;
-  margin:auto;
-  border-bottom: 1px #00A1FF;
-}*/
 
 .all-stories-wrapper{
   padding-bottom: 20px;
