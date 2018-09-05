@@ -445,9 +445,7 @@ a.no-decoration {
   left: 0;
   right: 0;
   position: absolute;
-  /*line-height: 40px; /* Vertically center the text there */
-  background-color: #130A31;
-  color:#004d7f;
+  background-color:#004d7f;
   overflow:hidden;
   clear:both;
 }
