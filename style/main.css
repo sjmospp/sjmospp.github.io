@@ -601,17 +601,8 @@ a.no-decoration {
 .work-showcase-bg{
   color: white;
   height: 160px;
-  background: url('../assets/universal/work-showcase-module.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
   display: table;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  width: 100%;
 }
  
 
@@ -1115,7 +1106,6 @@ Custom BreadCrumb
 }
 
 .custom-breadcrumb {
-  font-family: "Domine";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
