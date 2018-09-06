@@ -1,6 +1,6 @@
-# San José Mayor's Office of Strategic Partnerships and Performance Website
+# San José Mayor's Office of Strategic Initiatives and Budget Website
 
-A repository holding/hosting the website of the San Jose Mayor's Office of Strategic Partnerships and Performance (SJ MOSPP). Built with love in San José.
+A repository holding/hosting the website of the San Jose Mayor's Office of Strategic Initiatives and Budget (SJ MOSIB). Built with love in San José.
 
 ## Authors
 
