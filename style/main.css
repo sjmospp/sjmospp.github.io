@@ -3,11 +3,13 @@ html {
   min-height: 100%;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body {
   margin-bottom: 120px;/* Margin bottom by footer height */
   font-family: 'Montserrat', sans-serif;
+  font-weight:normal;
 }
 
 h2{
@@ -23,6 +25,14 @@ h2{
   max-width: 425px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@font-face {
+  font-family: "Montserrat script=all rev=1";
+  src: url("https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -47,7 +57,6 @@ p {
 }
 
 .alt-font{
-
   font-family: "Domine";
 }
 
@@ -277,7 +286,6 @@ a.navigation-link.active .underlined{
 }
 
 
-
 a.footer-link{
   color:#878296;
   text-decoration: none;
@@ -285,7 +293,7 @@ a.footer-link{
 
 #navbar li{
   display: inline-block;  
-  margin-right: 32px;   
+  margin-right: 16px;     
 }
 
 #magic-line { 
@@ -305,7 +313,7 @@ a.footer-link{
 
 /* navbar links group */
 .group {
- /* margin-right: 64px; */
+  margin-right: 80px; 
   font-size: 12px;
 }
 
@@ -580,16 +588,16 @@ a.no-decoration {
 }
 
 .hero-text {
-  margin-top: 15px;
+  margin-top: 10px;
   color : white;
   float: right;
   padding: 0px 10px 20px 10px; 
   display: inline-block;
-  width: 50%;
+  width: 53%;
 }
 
 .hero-text-content {
-  width:95%;
+  width:100%;
   height: auto;
   margin-bottom: 5%;
 }
@@ -617,6 +625,7 @@ a.no-decoration {
 
 .job-title{
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .get-update{
@@ -728,6 +737,10 @@ a.no-decoration {
 
 .bolded-text{
   font-weight: bold;
+}
+
+.remove-top-margin{
+  margin-top: 0px;
 }
 /* work page */
 .work-div {
@@ -1283,6 +1296,9 @@ font-weight: normal;
   .left-footer{
     width: 55%;
   }
+  .hero-text{
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1304,5 +1320,8 @@ font-weight: normal;
   }
   .left-footer{
     width: 60%;
+  }
+  .hero-text{
+    width: 50%;
   }
 }
